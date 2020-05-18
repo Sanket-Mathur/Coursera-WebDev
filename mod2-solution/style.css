@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+}
+div {
+    border: 1px solid black;
+}
+.cont {
+    float: left;
+    padding: 15px;
+    margin: 1%;;
+    background-color: grey;
+}
+.name {
+    float: right;
+    margin: -15px;
+    padding: 10px;
+    width: 33.33%;
+}
+#name1 {
+    background-color: #80ffff;
+}
+#name2 {
+    background-color: #ff80ff;
+}
+#name3 {
+    background-color: #8cff66;
+}
+p {
+    margin-top: 40px;
+}
+
+/* Large Devices */
+@media (min-width: 922px) {
+    .cont {
+        width: 31.3%;
+    }
+}
+@media (min-width: 768px) and (max-width: 921px) {
+    .cont1, .cont2 {
+        width: 48%;
+    }
+    .cont3 {
+        width: 98%;
+    }
+}
