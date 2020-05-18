@@ -38,7 +38,7 @@ p {
         width: 31.3%;
     }
 }
-@media (min-width: 768px) and (max-width: 921px) {
+@media (min-width: 768px) and (max-width: 991px) {
     .cont1, .cont2 {
         width: 48%;
     }
