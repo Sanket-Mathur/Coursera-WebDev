@@ -33,7 +33,7 @@ p {
 }
 
 /* Large Devices */
-@media (min-width: 922px) {
+@media (min-width: 992px) {
     .cont {
         width: 31.3%;
     }
