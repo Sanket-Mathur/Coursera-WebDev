@@ -1,0 +1,9 @@
+section {
+    background: grey;
+    text-align: justify;
+    padding: 20px;
+    margin: 20px;
+}
+.navbar-brand {
+    margin-top: -30px;
+}
